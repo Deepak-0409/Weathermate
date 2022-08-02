@@ -1,0 +1,18 @@
+<%- include("header_secondary") %> 
+
+    <div class="container primary-cont">
+        <div class="header">
+            <h2><%=city%></h2>
+            <hr>
+        </div>
+        
+        <div class="details">
+            <img src=<%= imgUrl %>  alt="weatherIcon.jpg" class="weatherIcon">
+            <h3 class="temperature"><%= temperature %>&#176C</h3>
+            <p class="fs-4 desc"><%=description%> | <%=airQuality%></p>
+        </div>
+
+        <button onClick="location.href='/'" class="btn btn-lg btn-primary btn-dark home-button"><i class="fa-solid fa-house me-2"></i>Home</button>
+    </div>
+
+    <%- include("footer_secondary") %> 

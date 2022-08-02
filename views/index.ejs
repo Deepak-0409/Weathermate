@@ -1,0 +1,18 @@
+<%- include("header") %> 
+
+<div class="container primary-cont">
+  <div class="header">
+            <h2>Weathermate</h2>
+            <hr>
+        </div>
+        <form class="input-form" action="/" method="post">
+            <div class="mb-3">
+              <label for="cityName" class="form-label">City : </label>
+              <input type="text" class="form-control city-input" id="cityName" name="city" placeholder="Enter City Name" autocomplete="off">
+            </div>
+            <button type="submit" class="btn btn-lg btn-primary btn-dark submit-button"><i class="fa-solid fa-cloud-sun me-2"></i> Get Details</button>
+          </form>
+          
+        </div>
+        
+<%- include("footer") %> 

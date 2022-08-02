@@ -1,0 +1,14 @@
+<%- include("header_secondary") %> 
+
+    <div class="container primary-cont">
+       
+        <img class="errorIcon" src="/Images/error.png" alt="Error.jpg">
+        <div class="error-div">
+            <h2 class="error-msg">UH-OH!</h2>
+            <p class="fs-5 mb-5">No data found for <%= city %> </p>
+        </div>
+
+        <button onClick="location.href='/'" class="btn btn-lg btn-primary btn-dark home-button"><i class="fa-solid fa-house me-2"></i>Home</button>
+    </div>
+
+<%- include("footer_secondary") %> 

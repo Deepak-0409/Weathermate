@@ -1,0 +1,91 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+    
+}
+
+hr
+{
+    border: 1px solid #9b968f;
+    width: 100%;
+}
+
+h2{
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.header
+{
+    text-align: center;
+    width: 100%;
+}
+
+.primary-cont
+{
+    padding: 2rem 1rem;
+    min-width: 30%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: auto;
+    border-radius: 1rem;
+    background-color: rgb(251 252 253 / 55%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.weatherIcon
+{
+    position: relative;
+    top: -2rem;
+    right: 3rem;
+    width: 8rem;
+    height: 8rem;
+}
+
+.details
+{
+    font-family: 'Kanit', sans-serif;
+    margin: 3rem auto 1rem;
+    text-align: center;
+}
+.temperature
+{
+    display: inline-block;
+    position: relative;
+    right: 2rem;
+    font-size: 6rem;
+    font-weight: 300;
+}
+
+.desc{
+    margin: -2rem auto 3rem;
+    
+}
+
+.home-button:hover
+{
+    background-color: rgb(68, 66, 66);
+}
+
+/* for error.ejs */
+
+.error-div
+{
+    text-align: center;
+}
+.errorIcon
+{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+  
